@@ -41,9 +41,9 @@ p{
  /* media queries*/
 
  @media (min-width: 1119px){
-    /* img{
+    img{
         height: auto;
-    } */
+    }
 
  }
  @media screen and (min-width: 1400px){
@@ -63,5 +63,20 @@ p{
     }
 
  }
+ @media (max-width:458px) {
+
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        
     
+ }
+
+ .container h2 {
+   
+ }
+ .container img {
  
+ }
+    
+}
